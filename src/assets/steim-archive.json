@@ -1,0 +1,382 @@
+{
+  "artists": [
+    {
+      "name": "Michel Waisvisz",
+      "connections": {
+        "artists": [],
+        "instruments": [{ "name": "The Hands" }, { "name": "The Web" }],
+        "performances": [],
+        "years": [{ "name": "1991" }, { "name": "1962" }],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [{ "name": "Sensor Lab" }],
+        "software": [{ "name": "LiSa" }, { "name": "JunXion" }]
+      }
+    },
+    {
+      "name": "Atau Tanaka",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Nicolas Collins",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Laetitia Sonami",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "instruments": [
+    {
+      "name": "The Hands",
+      "connections": {
+        "artists": [{ "name": "Michel Waisvisz" }],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "The Web",
+      "connections": {
+        "artists": [{ "name": "Michel Waisvisz" }],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Trombone Propelled Electronics",
+      "connections": {
+        "artists": [{ "name": "Nicolas Collins" }],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Lady's Glove",
+      "connections": {
+        "artists": [{ "name": "Laetitia Sonami" }],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "performances": [
+    {
+      "name": "Symposium One",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Symposium Two",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "years": [
+    {
+      "name": "1962",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "1991",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "1993",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "organization": [
+    {
+      "name": "Dutch Sonic Arts",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "No BackUp Concert",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Patters and Pleasure Festival",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "venues": [
+    {
+      "name": "STEIM Headquarters",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Rotterdam Concert Hall",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "literature": [
+    {
+      "name": "Dutch Touch",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Hardware Hacking",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "hardware": [
+    {
+      "name": "Wriststrap",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "Sensor Lab",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ],
+  "software": [
+    {
+      "name": "LiSa",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    },
+    {
+      "name": "JunXion",
+      "connections": {
+        "artists": [],
+        "instruments": [],
+        "performances": [],
+        "years": [],
+        "organization": [],
+        "events": [],
+        "venues": [],
+        "literature": [],
+        "hardware": [],
+        "software": []
+      }
+    }
+  ]
+}

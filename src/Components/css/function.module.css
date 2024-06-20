@@ -1,0 +1,349 @@
+.createNew {
+  font-size: var(--medium-font-size);
+  line-height: var(--medium-line-height);
+  letter-spacing: -1px;
+  color: #929091;
+}
+
+.entryContainer {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  /* transform: perspective(1000px) translate3D(0px, 0px, 0px);
+  transition: transform 0.2s; */
+}
+/* .entryContainer span {
+  text-shadow: none;
+  transition: text-shadow 0.2s;
+}
+.entryContainer:hover {
+  transform: perspective(2000px) translate3D(0px, 0px, 35px);
+}
+.entryContainer:hover span {
+  text-shadow: 15px 8px 8px rgba(121, 127, 103, 0.3);
+} */
+
+select {
+  color: #3c70ff;
+  background: transparent;
+  border: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.typeTag {
+  font-size: var(--medium-font-size);
+  font-weight: 300;
+}
+.typeTag option {
+  width: 100px;
+  font-size: 14px;
+}
+
+.artistName input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 68px;
+  line-height: 1;
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  letter-spacing: -3px;
+  width: 100%;
+}
+.artistName input::placeholder {
+  color: #7f8080;
+}
+
+.itemContainer {
+  background: #f3ffce;
+  padding: 20px;
+  position: relative;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: opacity 0.3s 0.3s;
+}
+
+.itemContainer.blocked {
+  opacity: 0.2;
+  pointer-events: none; /* Prevent pointer events */
+  position: relative; /* Ensure the pseudo-element is positioned relative to the container */
+}
+
+.itemContainer.blocked::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: not-allowed; /* Display the not-allowed cursor */
+  pointer-events: all; /* Allow pointer events on the pseudo-element to display the cursor */
+}
+
+.title {
+  position: relative;
+  /* left: 40px; */
+  font-weight: 400;
+  color: #abb290;
+  font-weight: 300;
+  vertical-align: top;
+}
+.title.creationYear {
+  left: 40px;
+  margin-bottom: 20px;
+}
+button,
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 50%;
+  background: #797f67;
+  color: #f3ffce;
+
+  position: relative;
+  top: calc(var(--medium-font-size) / 4);
+
+  width: 25px;
+  height: 25px;
+  font-size: var(--medium-font-size);
+
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+
+  transition: background 0.2s, color 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+
+button > .innerText {
+  transform: translate(-1px, -10%);
+
+  text-align: center;
+  font-size: 22px;
+}
+.button > .innerText {
+  transform: translateY(-10%);
+  text-align: center;
+  font-size: 22px;
+}
+
+.entryContainer.bio textarea {
+  background: transparent;
+  color: #939192;
+  border: none;
+  position: relative;
+  width: 60%;
+  height: 100px;
+  margin-left: 5px;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: "Helvetica Neue";
+  resize: none;
+  height: auto;
+}
+.entryContainer.bio textarea:focus {
+  outline: none;
+}
+
+.entryContainer.creationYear input::placeholder {
+  color: #abb290;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.entryContainer.creationYear input {
+  background: transparent;
+  border: none;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: var(--medium-font-size);
+  color: #929091;
+  letter-spacing: -1px;
+}
+
+button.pushButton {
+  /* position: absolute; */
+  bottom: 10px;
+  right: 10px;
+  width: auto;
+  white-space: no-wrap;
+  border-radius: 2px;
+  height: var(--medium-font-size);
+  background: #fff;
+  color: #3c70ff;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+button.pushButton:hover {
+  opacity: 1;
+}
+
+.addContent {
+  position: relative;
+  left: 20px;
+  transition: color 0.2s;
+}
+.addContent:hover {
+  color: #cbb3ff;
+  cursor: pointer;
+}
+.addContent:hover button {
+  background: #cbb3ff;
+}
+
+.mediaUpload {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  /* line-height: 45px; */
+}
+input[type="file"] {
+  display: none;
+}
+
+.thumbnailContainer {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+
+  left: 50%;
+  top: 30px;
+
+  opacity: 0.2;
+  z-index: 0;
+}
+.thumbnailContainer > .thumbnail {
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.thumbnailContainer > .imageNumberContainer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  color: #f3ffce;
+  font-size: var(--small-font-size);
+  border-radius: 50%;
+  text-align: center;
+}
+.imageNumberContainer > .imageNumber {
+  position: relative;
+  bottom: 3px;
+}
+
+/* Connect */
+.connectItemsContainer {
+  font-size: var(--medium-font-size);
+  line-height: var(--medium-line-height);
+  letter-spacing: -1px;
+  color: #929091;
+  height: calc(100% - 70px);
+  background: #232122;
+  margin: 10px;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: wrap;
+  /* height: 100%; */
+}
+.item {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin-right: 10px;
+  background: #fff;
+  border-radius: 10px;
+  transition: width 0.3s;
+  background: #333333;
+  vertical-align: top;
+  padding: 10px;
+}
+.item.connector {
+  width: 5%;
+  background: #abb291;
+}
+.connectorOptions {
+  display: none;
+}
+.connectorOptions.visible {
+  display: block;
+}
+.item:hover {
+  width: 50%;
+}
+
+ul.filterContainer {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+.filterContainer > li {
+  list-style: none;
+  margin-right: 5px;
+  display: inline;
+  cursor: pointer;
+}
+.filterContainer > li.selected {
+  color: #3c70ff;
+}
+.filterContainer > li:hover {
+  color: #fff;
+}
+
+.searchContainer {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  width: 100%;
+  height: 45px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.searchContainer button {
+  border: 0;
+  background: #8676a6;
+  color: #cec9dc;
+  font-size: var(--large-font-size);
+  line-height: var(--large-line-height);
+  height: 45px;
+  width: auto;
+
+  border-radius: 10px 10px 0px 10px;
+
+  cursor: not-allowed;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  letter-spacing: -1px;
+  top: 0px;
+}
+.searchContainer input {
+  height: 45px;
+  border: 0;
+  border-radius: 0px 0px 20px 0px;
+  background: #30343b;
+  width: 100%;
+  top: 0;
+
+  color: #cec9dc;
+  font-size: var(--large-font-size);
+  line-height: var(--large-line-height);
+
+  text-indent: 5px;
+  z-index: 1;
+  cursor: not-allowed;
+}
+
+.searchContainer input:focus {
+  outline: none;
+}
